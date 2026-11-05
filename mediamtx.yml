@@ -1,0 +1,8 @@
+# Windows lab relay for the Mavic 3M. Use MediaMTX's default network interfaces.
+webrtc: yes
+webrtcAddress: :8889
+rtsp: yes
+rtspAddress: :8554
+paths:
+  lb_d00dglmh:
+    source: publisher
